@@ -1,4 +1,4 @@
 Hello from GitHub Pages.
 
 Drop any files you want to serve into this folder. They'll be reachable at:
-  https://khoatdvo.github.io/static-page/files/<filename>
+  https://khoatdvo.github.io/files/<filename>
