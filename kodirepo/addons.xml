@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.homemedia" name="Home Media" version="0.4.2" provider-name="khoatdvo">
+    <addon id="plugin.video.homemedia" name="Home Media" version="0.4.3" provider-name="khoatdvo">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
         </requires>
@@ -17,7 +17,7 @@
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.png</fanart>
             </assets>
-            <news>v0.4.2 - MotPhim: add Quốc Gia (browse by country).</news>
+            <news>v0.4.3 - MotPhim: show movie plot from "Nội dung phim".</news>
         </extension>
     </addon>
     <addon id="repository.khoatdvo" name="Khoa's Kodi Repository" version="1.0.0" provider-name="khoatdvo">
