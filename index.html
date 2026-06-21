@@ -39,6 +39,10 @@
     }
     a.file:hover { background: #161b22; border-color: #58a6ff; }
     a.file::before { content: "📄"; }
+    a.dir::before { content: "📁"; }
+    a.zip::before { content: "📦"; }
+    span.size { margin-left: auto; color: #6e7681; font-size: .8rem; font-variant-numeric: tabular-nums; }
+    h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
     footer { margin-top: 2.5rem; color: #6e7681; font-size: .85rem; }
     footer a { color: #6e7681; }
   </style>
@@ -48,16 +52,29 @@
     <h1>khoatdvo.github.io</h1>
     <p class="lead">Files served via GitHub Pages.</p>
 
-    <h2 style="font-size:1.1rem;margin:1.5rem 0 .5rem;">Kodi repository</h2>
+    <h2>Directories</h2>
+    <ul>
+      <li><a class="file dir" href="files/">files/</a></li>
+      <li><a class="file dir" href="kodirepo/">kodirepo/</a></li>
+    </ul>
+
+    <h2>Kodi repository</h2>
     <p style="color:#8b949e;margin:0 0 1rem;">
       In Kodi, add <code>https://khoatdvo.github.io/kodirepo/</code> as a file
       source, then <em>Install from zip file</em> &rarr; the repository below,
       then <em>Install from repository</em> &rarr; Home Media.
     </p>
     <ul>
-      <li><a class="file" href="kodirepo/repository.khoatdvo/repository.khoatdvo-1.0.0.zip">repository.khoatdvo-1.0.0.zip (install this first)</a></li>
-      <li><a class="file" href="kodirepo/plugin.video.homemedia/plugin.video.homemedia-0.2.0.zip">plugin.video.homemedia-0.2.0.zip (direct add-on zip)</a></li>
-      <li><a class="file" href="kodirepo/addons.xml">kodirepo/addons.xml</a></li>
+      <li><a class="file zip" href="kodirepo/repository.khoatdvo/repository.khoatdvo-1.0.0.zip">repository.khoatdvo-1.0.0.zip (install this first)<span class="size">4 KB</span></a></li>
+      <li><a class="file zip" href="kodirepo/plugin.video.homemedia/plugin.video.homemedia-0.4.0.zip">plugin.video.homemedia-0.4.0.zip (direct add-on zip)<span class="size">24 KB</span></a></li>
+      <li><a class="file" href="kodirepo/addons.xml">kodirepo/addons.xml<span class="size">4 KB</span></a></li>
+      <li><a class="file" href="kodirepo/addons.xml.md5">kodirepo/addons.xml.md5<span class="size">4 KB</span></a></li>
+    </ul>
+
+    <h2>Files</h2>
+    <ul>
+      <li><a class="file" href="files/sample.txt">files/sample.txt<span class="size">4 KB</span></a></li>
+      <li><a class="file" href="README.md">README.md<span class="size">1 KB</span></a></li>
     </ul>
 
     <footer>
