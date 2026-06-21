@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.homemedia" name="Home Media" version="0.3.2" provider-name="khoatdvo">
+    <addon id="plugin.video.homemedia" name="Home Media" version="0.4.0" provider-name="khoatdvo">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
         </requires>
@@ -8,8 +8,8 @@
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">Browse and play your Fshare.vn favorites</summary>
-            <description lang="en_GB">A Kodi video add-on that logs in to your Fshare.vn account and lists your favorite bookmarks for streaming. Enter your Fshare email and password in the add-on settings.</description>
+            <summary lang="en_GB">Home media hub: Fshare favorites and MotPhim</summary>
+            <description lang="en_GB">A Kodi video add-on with multiple media sources. Fshare Favorites lists your Fshare.vn bookmarks for streaming (enter your email/password in settings). MotPhim browses motphimz.ac — sections, genres, and search — and streams films directly.</description>
             <platform>all</platform>
             <license>Apache-2.0</license>
             <source>https://github.com/khoatdvo/home-media</source>
@@ -17,7 +17,7 @@
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.png</fanart>
             </assets>
-            <news>v0.3.2 - New add-on icon.</news>
+            <news>v0.4.0 - New source: MotPhim (browse, search, stream from motphimz.ac).</news>
         </extension>
     </addon>
     <addon id="repository.khoatdvo" name="Khoa's Kodi Repository" version="1.0.0" provider-name="khoatdvo">
