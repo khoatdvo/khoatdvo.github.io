@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.homemedia" name="Home Media" version="0.4.5" provider-name="khoatdvo">
+    <addon id="plugin.video.homemedia" name="Home Media" version="0.4.6" provider-name="khoatdvo">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
         </requires>
@@ -17,7 +17,7 @@
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.png</fanart>
             </assets>
-            <news>v0.4.5 - More accurate IMDb scores (IMDb GraphQL); fewer false n/a.</news>
+            <news>v0.4.6 - Fshare: fix HTTP 400 after token expiry; MotPhim shows posters on server/episode lists.</news>
         </extension>
     </addon>
     <addon id="plugin.video.vietmediaF2" name="VietmediaF 2" version="11.37.6" provider-name="xxVNxx">
